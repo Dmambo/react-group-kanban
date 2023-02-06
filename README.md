@@ -1,39 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -60,48 +26,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 BOOK STORE <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> THIS IS A REACT-REDUX PROJECT APP
 
-**[your_project__name]** is a...
+**[BOOK STORE]** BOOK STORE
 
 ## 🛠 Built With <a name="built-with"></a>
 
+REACT
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+> REACT-REDUX
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **[ADD BOOK TO STORE]**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+  - [Description] ADD BOOK TO STORE AND GET BOOKS FROM API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Site is still in production and can't be deployed for now
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -119,32 +64,26 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+> To start using this project you need to clone the repository and follow the other requirements below
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+VS CODE
+BROWSER
+INTERNET CONNECTION
+NODE.JS INSTALLED
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 <!--
-Example commands:
+clone this repository into your desired folder
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  https://github.com/Dmambo/bookstores.git
 ```
 --->
 
@@ -153,11 +92,16 @@ Example commands:
 Install this project with:
 
 <!--
-Example command:
+download the packages
 
 ```sh
-  cd my-project
-  gem install
+  cd bookstores
+  npm install
+```
+install other dependencies
+
+```sh
+npm i --save-dev
 ```
 --->
 
@@ -169,33 +113,9 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  npm start
 ```
 --->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,33 +123,23 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **IBRAHIM**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Dmambo](https://github.com/Dmambo)
+- Twitter: [@kingibro345](https://twitter.com/kingibro345)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Diaby mohammed ibrahim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<!-- Future Features -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="Future Features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Add future features that you plan to implement in the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **[CONNECT TO API]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE BOOKS FROM THE API
 
 <!-- CONTRIBUTING -->
 
