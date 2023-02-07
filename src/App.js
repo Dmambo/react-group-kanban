@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { fetchRocket } from './redux/rocket';
 import MyProfile from './components/MyProfile/MyProfile';
 import Rocket from './components/Rocket/rocket';
+
 import Header from './components/Header/Header';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchRocket());
   }, [dispatch]);
+import Missions from './components/Missions/Missions';
 
   return (
     <>
@@ -18,6 +20,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Rocket />} />
+          <Route path="/missions" element={<Missions />} />
           <Route path="/profile" element={<MyProfile />} />
         </Routes>
       </Router>

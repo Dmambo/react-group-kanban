@@ -56,7 +56,7 @@ REACT
 
 > Site is still in production and can't be deployed for now
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +128,12 @@ Example command:
 - GitHub: [@Dmambo](https://github.com/Dmambo)
 - Twitter: [@kingibro345](https://twitter.com/kingibro345)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Diaby mohammed ibrahim)
+
+👤 **Yash Solo**
+
+- GitHub: [Yash](https://github.com/yash244466666)
+- LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
+- Twitter: [Yash Solo](https://twitter.com/yash_solo000)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
