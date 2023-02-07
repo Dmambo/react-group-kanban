@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import rocket from './rocket';
+import rockets from './rocket';
 
 const store = configureStore({
   reducer: {
-    rocket,
+    rockets: rockets.reducer,
   },
 });
 
