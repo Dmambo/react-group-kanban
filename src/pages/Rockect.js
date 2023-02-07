@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-// import Rocket from '../components/Rocket/rocket';
 import { fetchRockets, reserve } from '../redux/rocket';
 import '../styles/Rockets.css';
 
@@ -11,8 +10,8 @@ const Rockets = () => {
     dispatch(fetchRockets({ method: 'GET' }));
   }, [dispatch]);
 
-  const reserves = (bool) => {
-    if (bool) return <span className="reserved">Reserved</span>;
+  const reserves = (reservess) => {
+    if (reservess) return <span className="reserved">Reserved</span>;
     return null;
   };
   return (
@@ -37,9 +36,7 @@ const Rockets = () => {
               }}
               type="button"
             >
-              {`${
-                rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'
-              }`}
+              {`${rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}`}
             </button>
           </div>
         </div>
