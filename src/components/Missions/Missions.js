@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, toggleJoinMissions } from '../../redux/missionsReducer';
-import styles from './Missions.css';
+import styles from './missions.module.css';
 
 let fetched = false;
 const Missions = () => {
@@ -37,7 +37,7 @@ const Missions = () => {
             reserved,
           }) => (
             <tr key={missionId}>
-              <td className={styles.missionName}>{missionName}</td>
+              <td className={missionName}>{missionName}</td>
               <td>{description}</td>
               <td className={styles.badge}>
                 <p
