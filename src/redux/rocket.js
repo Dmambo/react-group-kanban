@@ -1,38 +1,56 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { createAsyncThunk } from '@reduxjs/toolkit';
 
-import axios from 'axios';
+const url = 'https://api.spacexdata.com/v4/rockets';
+const FETCH_ROCKETS = 'spaceX/rockets/FETCH_ROCKETS';
+const LIST_ROCKETS = 'spaceX/rockets/LIST_ROCKETS';
+const RESERVE_ROCKET = 'spaceX/rockets/RESERVE_ROCKET';
 
-export const fetchRocket = createAsyncThunk('rockets/fetchRocket', async () => {
-  const response = await axios.get('https://api.spacexdata.com/v4/rockets');
+export const list = (rockets) => ({ type: LIST_ROCKETS, rockets });
+export const reserve = (id) => ({ type: RESERVE_ROCKET, id });
 
-  const { data } = response;
-  data.map((rocket) => ({
-    id: rocket.id,
-    name: rocket.name,
-    type: rocket.type,
-    description: rocket.description,
-    images: rocket.flickr_images,
+const get = () => fetch(url)
+  .then((response) => response.json())
+  .then((rocketz) => rocketz.map((rocket) => {
+    const {
+      id, name, description, flickr_images: images,
+    } = rocket;
+    return {
+      id,
+      name,
+      description,
+      image: images[0],
+      reserved: false,
+    };
   }));
-  return data;
-});
 
-const initialState = {
-  rockets: [],
-};
-
-const rockets = createSlice({
-  name: 'rockets',
-  initialState,
-  reducers: {},
-  extraReducers: {
-    [fetchRocket.fulfilled]: (state, action) => {
-      const newState = {
-        ...state,
-        rockets: action.payload,
-      };
-      return newState;
-    },
+export const fetchRockets = createAsyncThunk(
+  FETCH_ROCKETS,
+  async (args, thunkAPI) => {
+    try {
+      let rockets;
+      switch (args.method) {
+        case 'GET':
+          rockets = await get();
+          thunkAPI.dispatch(list(rockets));
+          return rockets;
+        default:
+          return null;
+      }
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error, args.method);
+    }
   },
-});
+);
 
-export default rockets;
+export default (state = [], action) => {
+  switch (action.type) {
+    case LIST_ROCKETS:
+      return action.rockets;
+    case RESERVE_ROCKET:
+      return state.map((rocket) => (rocket.id === action.id
+        ? { ...rocket, reserved: !rocket.reserved }
+        : rocket));
+    default:
+      return state;
+  }
+};
