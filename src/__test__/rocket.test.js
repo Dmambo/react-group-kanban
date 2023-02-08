@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from '../redux/configureStore';
 import renderer from 'react-test-renderer';
+import store from '../redux/configureStore';
 import Rockets from '../pages/Rockect';
 
 describe('Test Rockets Component', () => {
@@ -10,7 +10,7 @@ describe('Test Rockets Component', () => {
       .create(
         <Provider store={store}>
           <Rockets />
-        </Provider>
+        </Provider>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();

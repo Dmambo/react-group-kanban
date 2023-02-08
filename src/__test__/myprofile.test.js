@@ -1,7 +1,7 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
-import renderer from 'react-test-renderer';
 import MyProfile from '../components/MyProfile/MyProfile';
 
 describe('Test MyProfile Component', () => {
@@ -10,7 +10,7 @@ describe('Test MyProfile Component', () => {
       .create(
         <Provider store={store}>
           <MyProfile />
-        </Provider>
+        </Provider>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();

@@ -1,4 +1,3 @@
-import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
@@ -9,7 +8,7 @@ describe('Test Header Component', () => {
     render(
       <BrowserRouter>
         <Header />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     expect(screen.getByText("Space Travelers' Hub")).toBeInTheDocument();
     expect(screen.getByText('Rocket')).toBeInTheDocument();

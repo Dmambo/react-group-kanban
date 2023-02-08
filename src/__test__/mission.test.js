@@ -1,7 +1,7 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
-import renderer from 'react-test-renderer';
 import Missions from '../components/Missions/Missions';
 
 describe('Test Missions Component', () => {
@@ -10,7 +10,7 @@ describe('Test Missions Component', () => {
       .create(
         <Provider store={store}>
           <Missions />
-        </Provider>
+        </Provider>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
