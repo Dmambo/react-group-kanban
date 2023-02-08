@@ -31,8 +31,9 @@ tr:nth-child(even) {
   word-spacing: -2px;
   color: #fff;
   font-weight: bold;
-  background-color: rgb(13, 99, 121);
+  background-color: #1599ba;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .notReserved {
@@ -42,7 +43,8 @@ tr:nth-child(even) {
   word-spacing: -2px;
   color: #fff;
   font-weight: bold;
-  background-color: rgb(56, 56, 56);
+  background-color: #383838;
+  border-radius: 10px;
 }
 
 .leave {
@@ -52,6 +54,7 @@ tr:nth-child(even) {
   font-size: 15px;
   padding: 5px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .join {
@@ -61,6 +64,7 @@ tr:nth-child(even) {
   font-size: 15px;
   padding: 5px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .badge {
