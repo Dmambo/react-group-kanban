@@ -12,10 +12,16 @@ const Header = () => (
       </div>
       <div className="navLinks">
         <ul className="navLinksList">
-          <li className="navLinksListItem"><NavLink to="/">Rocket</NavLink></li>
-          <li className="navLinksListItem"><NavLink to="/missions">Missions</NavLink></li>
+          <li className="navLinksListItem">
+            <NavLink to="/">Rocket</NavLink>
+          </li>
+          <li className="navLinksListItem">
+            <NavLink to="/missions">Missions</NavLink>
+          </li>
           <span className="navVr" />
-          <li className="navLinksListItem"><NavLink to="/profile">My Profile</NavLink></li>
+          <li className="navLinksListItem">
+            <NavLink to="/profile">My Profile</NavLink>
+          </li>
         </ul>
       </div>
     </nav>
