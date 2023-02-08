@@ -9,6 +9,7 @@
 a {
   text-decoration: none;
   color: #3995ff;
+  line-height: 48px;
 }
 
 .navbar {
@@ -17,6 +18,7 @@ a {
   align-items: center;
   padding: 1rem 1rem;
   border-bottom: 1px solid #928e8eee;
+  line-height: 48px;
 }
 
 .navLogo {
@@ -24,6 +26,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  line-height: 48px;
 }
 
 .navLogoImg {
@@ -38,19 +41,22 @@ a {
   list-style: none;
   text-decoration: none;
   color: #3995ff;
+  line-height: 48px;
 }
 
 .navLinksListItem {
   text-decoration: none;
+  line-height: 48px;
 }
 
 .navVr {
   border-left: 2px solid #000;
   height: 18px;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
 
 .active {
   border-bottom: 1px solid #000;
   color: #147ff9;
+  line-height: 48px;
 }
