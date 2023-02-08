@@ -13,18 +13,27 @@ const MyProfile = () => {
     : [];
   return (
     <div className="myprofile">
-      <h2>My Missions</h2>
-      <ul>
-        {reservedMissions.map((mission) => (
-          <li key={mission.mission_id}>{mission.mission_name}</li>
-        ))}
-      </ul>
-      <h2>My Rockets</h2>
-      <ul>
-        {reservedRockets.map((rocket) => (
-          <li key={rocket.id}>{rocket.name}</li>
-        ))}
-      </ul>
+      <div className="myprofile__missions">
+        <h2 className="profile_title">My Missions</h2>
+        <ul className="profile_item">
+          {reservedMissions.map((mission) => (
+            <li key={mission.mission_id} className="profile_list">
+              {mission.mission_name}
+              {' '}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="myprofile__rockets">
+        <h2 className="profile_title">My Rockets</h2>
+        <ul className="profile_item">
+          {reservedRockets.map((rocket) => (
+            <li key={rocket.id} className="profile_list">
+              {rocket.name}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
