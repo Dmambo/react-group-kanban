@@ -28,7 +28,7 @@
 
 # 📖 React Group Project <a name="about-project"></a>
 
-> THIS IS A REACT-REDUX PROJECT APP
+> THIS IS A REACT-REDUX GROUP PROJECT APP
 
 **[React Group Project]** React Group Project
 
