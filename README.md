@@ -148,7 +148,7 @@ Example command:
 
 - **[Styling]**
 
-  - [Description] WOULD HAVE STYLED THE APP IN A BETTER WAY
+  - WE WILL STYLE THE APP IN A BETTER WAY
 
 <!-- CONTRIBUTING -->
 
