@@ -30,13 +30,9 @@
 
 # 📖 React Group Project <a name="about-project"></a>
 
-<<<<<<< HEAD
 > THIS IS A REACT-REDUX GROUP PROJECT APP
-=======
-> THIS IS A REACT-REDUX PROJECT APP
 > It is a single webpage application that uses the api gotten from spaceX to fetch rockets and missions
 > the rocket is display along with the name and the mission along with the descriptions
->>>>>>> e38453125911c1a644e8574f26859a3a1a7e5370
 
 **[React Group Project]** React Group Project
 
@@ -52,30 +48,20 @@ REACT
 
 ### Key Features <a name="key-features"></a>
 
-<<<<<<< HEAD
 - **[Fetch data from SpaceX API]**
 
   - [Description] Fetch data from SpaceX API and display it in the app
-=======
+  
 - **[RESERVE ROCKET]**
 
   - [Description] Reserve a rocket and make it display on my profile page
->>>>>>> e38453125911c1a644e8574f26859a3a1a7e5370
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Site is still in production and can't be deployed for now
-
-<<<<<<< HEAD
 - [Live Demo Link](https://symphonious-horse-ad1952.netlify.app/)
-=======
-<!-- - [Live Demo Link](https://space-traveler-hub.onrender.com) -->
->>>>>>> e38453125911c1a644e8574f26859a3a1a7e5370
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -96,15 +82,9 @@ NODE.JS INSTALLED
 
 Clone this repository to your desired folder:
 
-clone this repository into your desired folder
-
 ```sh
   cd my-folder
-<<<<<<< HEAD
   git clone https://github.com/Dmambo/react-group-project.git
-=======
-  https://github.com/Dmambo/react-group-project/
->>>>>>> e38453125911c1a644e8574f26859a3a1a7e5370
 ```
 
 -
@@ -164,17 +144,7 @@ Example command:
 
 ## 🔭 Future Features <a name="Future Features"></a>
 
-> Add future features that you plan to implement in the project.
-
-<<<<<<< HEAD
-- **[Styling]**
-
-  - WE WILL STYLE THE APP IN A BETTER WAY
-=======
-- **[Add reservations to my profile page]**
-
   - [Description] Able to add reserved file to my profile page
->>>>>>> e38453125911c1a644e8574f26859a3a1a7e5370
 
 <!-- CONTRIBUTING -->
 
