@@ -1,3 +1,5 @@
+<h1 align="center"> React Group Project </h1>
+
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -26,11 +28,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BOOK STORE <a name="about-project"></a>
+# 📖 React Group Project <a name="about-project"></a>
 
-> THIS IS A REACT-REDUX PROJECT APP
+> THIS IS A REACT-REDUX GROUP PROJECT APP
 
-**[BOOK STORE]** BOOK STORE
+**[React Group Project]** React Group Project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,9 +46,9 @@ REACT
 
 ### Key Features <a name="key-features"></a>
 
-- **[ADD BOOK TO STORE]**
+- **[Fetch data from SpaceX API]**
 
-  - [Description] ADD BOOK TO STORE AND GET BOOKS FROM API
+  - [Description] Fetch data from SpaceX API and display it in the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +58,7 @@ REACT
 
 > Site is still in production and can't be deployed for now
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+- [Live Demo Link](https://symphonious-horse-ad1952.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,44 +80,45 @@ NODE.JS INSTALLED
 
 Clone this repository to your desired folder:
 
-<!--
 clone this repository into your desired folder
 
 ```sh
   cd my-folder
-  https://github.com/Dmambo/bookstores.git
+  git clone https://github.com/Dmambo/react-group-project.git
 ```
---->
+
+-
 
 ### Install
 
 Install this project with:
 
-<!--
 download the packages
 
 ```sh
-  cd bookstores
+  cd react-group-project
   npm install
 ```
+
 install other dependencies
 
 ```sh
 npm i --save-dev
 ```
---->
+
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
   npm start
 ```
---->
+
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,13 +130,13 @@ Example command:
 
 - GitHub: [@Dmambo](https://github.com/Dmambo)
 - Twitter: [@kingibro345](https://twitter.com/kingibro345)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Diaby mohammed ibrahim)
+- LinkedIn: [Ibrahim Diaby Mohammed](https://www.linkedin.com/in/dmambo/)
 
 👤 **Yash Solo**
 
 - GitHub: [Yash](https://github.com/yash244466666)
-- LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
-- Twitter: [Yash Solo](https://twitter.com/yash_solo000)
+- LinkedIn: [Md. Mohi Minul Islam Yash Sikdar](https://www.linkedin.com/in/yash-solo)
+- Twitter: [Md. Mohi Minul Islam Yash](https://twitter.com/yash_solo000)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,9 +146,9 @@ Example command:
 
 > Add future features that you plan to implement in the project.
 
-- **[CONNECT TO API]**
+- **[Styling]**
 
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE BOOKS FROM THE API
+  - WE WILL STYLE THE APP IN A BETTER WAY
 
 <!-- CONTRIBUTING -->
 
@@ -153,33 +156,33 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Dmambo/react-group-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- ## ⭐️ Show your support <a name="support"></a>
 
 > Write a message to encourage readers to support your project
 
 If you like this project...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -191,7 +194,7 @@ I would like to thank...
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
