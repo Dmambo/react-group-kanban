@@ -1,0 +1,29 @@
+.myprofile {
+  display: flex;
+  align-items: center;
+  margin: 10px 50px;
+  gap: 60px;
+}
+
+.profile_item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 1px solid #0000009a;
+  margin: 0;
+  padding-inline-start: 0;
+  border-radius: 5px;
+}
+
+.profile_title {
+  font-size: 2.2rem;
+}
+
+.profile_list {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #0000009a;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
