@@ -1,14 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchRockets, reserve } from '../redux/rocket';
+import { reserve } from '../redux/rocket';
 import '../styles/Rockets.css';
 
 const Rockets = () => {
   const rockets = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchRockets({ method: 'GET' }));
-  }, [dispatch]);
 
   const reserves = (reservess) => {
     if (reservess) return <span className="reserved">Reserved</span>;
