@@ -26,11 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BOOK STORE <a name="about-project"></a>
+# 📖 React Group Project <a name="about-project"></a>
 
 > THIS IS A REACT-REDUX PROJECT APP
 
-**[BOOK STORE]** BOOK STORE
+**[React Group Project]** React Group Project
 
 ## 🛠 Built With <a name="built-with"></a>
 
