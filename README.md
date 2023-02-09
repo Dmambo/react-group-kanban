@@ -1,4 +1,4 @@
-<h1> React Group Project </h1>
+<h1 align="center"> React Group Project </h1>
 
 <a name="readme-top"></a>
 
