@@ -128,13 +128,13 @@ Example command:
 
 - GitHub: [@Dmambo](https://github.com/Dmambo)
 - Twitter: [@kingibro345](https://twitter.com/kingibro345)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dmambo/)
+- LinkedIn: [Ibrahim Diaby Mohammed](https://www.linkedin.com/in/dmambo/)
 
 👤 **Yash Solo**
 
 - GitHub: [Yash](https://github.com/yash244466666)
-- LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
-- Twitter: [Yash Solo](https://twitter.com/yash_solo000)
+- LinkedIn: [Md. Mohi Minul Islam Yash Sikdar](https://www.linkedin.com/in/yash-solo)
+- Twitter: [Md. Mohi Minul Islam Yash](https://twitter.com/yash_solo000)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
