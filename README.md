@@ -56,7 +56,7 @@ REACT
 
 > Site is still in production and can't be deployed for now
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+- [Live Demo Link](https://symphonious-horse-ad1952.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,44 +78,45 @@ NODE.JS INSTALLED
 
 Clone this repository to your desired folder:
 
-<!--
 clone this repository into your desired folder
 
 ```sh
   cd my-folder
-  https://github.com/Dmambo/bookstores.git
+  git clone https://github.com/Dmambo/react-group-project.git
 ```
---->
+
+-
 
 ### Install
 
 Install this project with:
 
-<!--
 download the packages
 
 ```sh
-  cd bookstores
+  cd react-group-project
   npm install
 ```
+
 install other dependencies
 
 ```sh
 npm i --save-dev
 ```
---->
+
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
   npm start
 ```
---->
+
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +128,7 @@ Example command:
 
 - GitHub: [@Dmambo](https://github.com/Dmambo)
 - Twitter: [@kingibro345](https://twitter.com/kingibro345)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Diaby mohammed ibrahim)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dmambo/)
 
 👤 **Yash Solo**
 
@@ -153,33 +154,33 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Dmambo/react-group-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- ## ⭐️ Show your support <a name="support"></a>
 
 > Write a message to encourage readers to support your project
 
 If you like this project...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -191,7 +192,7 @@ I would like to thank...
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
