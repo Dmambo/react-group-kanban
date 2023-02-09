@@ -44,9 +44,9 @@ REACT
 
 ### Key Features <a name="key-features"></a>
 
-- **[ADD BOOK TO STORE]**
+- **[Fetch data from SpaceX API]**
 
-  - [Description] ADD BOOK TO STORE AND GET BOOKS FROM API
+  - [Description] Fetch data from SpaceX API and display it in the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,9 +144,9 @@ Example command:
 
 > Add future features that you plan to implement in the project.
 
-- **[CONNECT TO API]**
+- **[Styling]**
 
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE BOOKS FROM THE API
+  - [Description] WOULD HAVE STYLED THE APP IN A BETTER WAY
 
 <!-- CONTRIBUTING -->
 
