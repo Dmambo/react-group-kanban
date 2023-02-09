@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMissions, toggleJoinMissions } from '../../redux/missionsReducer';
+import {
+  fetchMissions,
+  toggleJoinMissions,
+} from '../../redux/missionSlice/missionsReducer';
 import styles from './missions.module.css';
 
 let fetched = false;
@@ -37,7 +40,7 @@ const Missions = () => {
             reserved,
           }) => (
             <tr key={missionId}>
-              <td className={missionName}>{missionName}</td>
+              <td className={styles.missionName}>{missionName}</td>
               <td>{description}</td>
               <td className={styles.badge}>
                 <p
@@ -45,7 +48,7 @@ const Missions = () => {
                     reserved ? styles.missionReserved : styles.notReserved
                   }
                 >
-                  {reserved ? 'ACTIVE MEMBER' : 'NOT A MEMBER'}
+                  {reserved ? 'ACTIVE  MEMBER' : 'NOT A MEMBER'}
                 </p>
               </td>
               <td key={missionId} className={styles.badge}>

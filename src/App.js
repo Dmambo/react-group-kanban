@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import MyProfile from './components/MyProfile/MyProfile';
 import Rockets from './pages/Rockect';
 import Missions from './components/Missions/Missions';
-import { fetchRockets } from './redux/rocket';
+import { fetchRockets } from './redux/rocketSlice/rocket';
 
 import Header from './components/Header/Header';
 
