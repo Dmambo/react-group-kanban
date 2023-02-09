@@ -1,3 +1,5 @@
+<h1> React Group Project </h1>
+
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
