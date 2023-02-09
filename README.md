@@ -29,6 +29,8 @@
 # 📖 BOOK STORE <a name="about-project"></a>
 
 > THIS IS A REACT-REDUX PROJECT APP
+> It is a single webpage application that uses the api gotten from spaceX to fetch rockets and missions
+> the rocket is display along with the name and the mission along with the descriptions
 
 **[BOOK STORE]** BOOK STORE
 
@@ -44,9 +46,9 @@ REACT
 
 ### Key Features <a name="key-features"></a>
 
-- **[ADD BOOK TO STORE]**
+- **[RESERVE ROCKET]**
 
-  - [Description] ADD BOOK TO STORE AND GET BOOKS FROM API
+  - [Description] Reserve a rocket and make it display on my profile page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +58,7 @@ REACT
 
 > Site is still in production and can't be deployed for now
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+<!-- - [Live Demo Link](https://space-traveler-hub.onrender.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +85,7 @@ clone this repository into your desired folder
 
 ```sh
   cd my-folder
-  https://github.com/Dmambo/bookstores.git
+  https://github.com/Dmambo/react-group-project/
 ```
 --->
 
@@ -95,7 +97,7 @@ Install this project with:
 download the packages
 
 ```sh
-  cd bookstores
+  cd react-group-project
   npm install
 ```
 install other dependencies
@@ -143,9 +145,9 @@ Example command:
 
 > Add future features that you plan to implement in the project.
 
-- **[CONNECT TO API]**
+- **[Add reservations to my profile page]**
 
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE BOOKS FROM THE API
+  - [Description] Able to add reserved file to my profile page
 
 <!-- CONTRIBUTING -->
 
